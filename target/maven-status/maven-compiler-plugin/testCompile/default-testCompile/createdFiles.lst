@@ -1,0 +1,4 @@
+StepDefinitions\LoginPageSteps.class
+TestRunner\Run.class
+Utilities\ConfigFileReader.class
+PageObjects\LoginPage.class
