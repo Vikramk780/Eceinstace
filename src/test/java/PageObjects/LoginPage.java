@@ -41,6 +41,9 @@ public class LoginPage {
 	
 	public void clickOnLoginBtn() {
 		loginbtn.click();
+		String tittle=Idriver.getTitle();
+		System.out.println(tittle);
+		
 	}
 	
 	public void clickonLogout() {
