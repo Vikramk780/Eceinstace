@@ -1,11 +1,11 @@
 package TestRunner;
 
-import org.junit.runner.RunWith;
+import org.testng.annotations.DataProvider;
 
-import io.cucumber.junit.Cucumber;
-import io.cucumber.junit.CucumberOptions;
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+import io.cucumber.testng.CucumberOptions;
 
-@RunWith(Cucumber.class)
+
 @CucumberOptions(
 		features = "./Features/",
 		glue= "StepDefinitions",
@@ -15,7 +15,7 @@ import io.cucumber.junit.CucumberOptions;
 		)
 
 //"junit:target/cucumberReports/reportsJunit.xml"
-public class Run {
+public class Run extends AbstractTestNGCucumberTests{
 
 }
 
