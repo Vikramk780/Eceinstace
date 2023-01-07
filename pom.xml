@@ -125,7 +125,7 @@
 				</goals>
 				<configuration>
 					<includes>
-						<include>**/Run.java</include>
+						<include>**/RunTest.java</include>
 					</includes>
 
 				</configuration>
