@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "C:\\CodStudio\\CodesSwag\\Features\\LoginFeature.feature",
+		features = "./Features/",
 		glue= "StepDefinitions",
 		dryRun = false,
 		monochrome = true,
