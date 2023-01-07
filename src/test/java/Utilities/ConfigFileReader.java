@@ -17,7 +17,7 @@ public class ConfigFileReader {
 
 		prop = new Properties();
 		try {
-			FileInputStream ip = new FileInputStream("C:\\CodStudio\\CodesSwag\\Properties\\Configuration.properties");
+			FileInputStream ip = new FileInputStream("./Properties/Configuration.properties");
 			prop.load(ip);
 
 		} catch (FileNotFoundException e) {
